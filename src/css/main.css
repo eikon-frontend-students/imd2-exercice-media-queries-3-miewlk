@@ -406,10 +406,22 @@ video {
   .nav-toggle {
     display: none;
   }
+
+  .cta-button {
+    width: fit-content;
+  }
+
+  .features-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .feature-card {
+    width: 479.5px;
+  }
 }
 
 /* DESKTOP - Large screens (1024px and up) */
 @media screen and (min-width: 1024px) {
-
 }
-
